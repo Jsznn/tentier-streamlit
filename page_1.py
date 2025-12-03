@@ -46,7 +46,7 @@ def predict_sentiment(text, model, tokenizer):
 
 @st.fragment
 def display_header():
-    st.title("Manual Sentiment Analysis")
+    st.title("Product Review Sentiment Analysis")
     st.markdown("Masukkan ulasan secara manual untuk dianalisis sentimennya.")
 
 @st.fragment
